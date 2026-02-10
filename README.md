@@ -1,14 +1,37 @@
 # mysignature-qa
 Focused QA investigation of MySignature.io with real product issues
 
-# MySignature QA
+# MySignature QA Cases
 
-QA investigation of the MySignature.io web application.
+Manual QA cases for MySignature.io web application.
 
-Each issue is documented separately and includes:
-- Risk
-- Test
-- Expected vs actual result
-- Bug and evidence (if found)
+This repository contains real end-to-end QA cases based on exploratory testing.
+Each case includes:
+- Risk description
+- Test scenario
+- Bug report
+- Video evidence
 
-Focus areas: authentication, onboarding, access control.
+## Repository structure
+
+cases/
+- CASE-001-*
+  - risk.md        — why this case is risky for the product
+  - test.md        — test scenario and steps
+  - bug.md         — bug description (expected vs actual)
+  - evidence/
+    - video.md     — links to video reproductions
+
+---
+
+## Covered cases
+
+- CASE-001 — Google login allows skipping mandatory onboarding step (Position)
+
+---
+
+## Notes
+
+- All cases reproduced on production environment
+- Testing performed without internal access
+- Focus on user-impacting behavior
