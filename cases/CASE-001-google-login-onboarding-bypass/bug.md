@@ -35,3 +35,4 @@ High
 
 ### Notes
 This issue allows bypassing required onboarding logic and may lead to incomplete user profiles and inconsistent system state.
+Issue also reproduces after logout and re-login via Google with partial onboarding data persisted.
